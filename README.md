@@ -75,5 +75,12 @@ This model can be deployed on an embedded system like Raspberry Pi or ESP32 with
    ```bash
    git clone https://github.com/yourusername/cry-detection-smart-baby-cradle.git
 
+   cd cry-detection-smart-baby-cradle
+   pip install -r requirements.txt
+   jupyter notebook Cry_Detection.ipynb
+
+
+Thanks to the open datasets and Librosa community for making this work possible.
+
 
 
