@@ -29,25 +29,6 @@ The primary goal is to distinguish between **cry** and **non-cry** audio using f
 - Scikit-learn – model training
 - Matplotlib – visualization
 
----
-
-## Project Structure
-
-
-cry-detection-smart-baby-cradle/
-│
-├── Cry_Detection.ipynb # Jupyter notebook with full implementation
-├── dataset/
-│ ├── cry/ # Baby crying samples (wav)
-│ └── non-cry/ # Other baby sounds (wav)
-├── features/
-│ └── mfcc_data.csv # Extracted features and labels
-├── models/
-│ └── svm_model.pkl # Saved trained model
-├── README.md # Project description
-└── requirements.txt # All necessary dependencies
-
-
 
 ---
 
